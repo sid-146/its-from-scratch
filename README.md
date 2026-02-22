@@ -78,7 +78,7 @@ Each algorithm directory typically contains:
 
 - `intuition.md` — conceptual explanation
 - `derivation.md` — mathematical formulation and proof
-- `implementation.py` — minimal implementation using NumPy only
+- `implementation.ipynb` — minimal implementation using NumPy only
 
 ---
 
