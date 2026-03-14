@@ -29,10 +29,10 @@ The primary goal is **deep conceptual clarity**.
 - Minimal external dependencies
 - No black-box API calls
 - Clear separation between:
-  - Intuition
-  - Mathematical formulation
-  - Optimization logic
-  - Final implementation
+    - Intuition
+    - Mathematical formulation
+    - Optimization logic
+    - Final implementation
 
 ---
 
@@ -73,18 +73,19 @@ its-from-scratch/
 └── notes/
 ```
 
-
 Each algorithm directory typically contains:
 
-- `intuition.md` — conceptual explanation
-- `derivation.md` — mathematical formulation and proof
-- `implementation.ipynb` — minimal implementation using NumPy only
+- `theory.md` — conceptual explanation
+- `mathematical-intuition.md` — mathematical formulation and proof
+- `example.md` — Examples
+- `application.md` - Application of given topic
 
 ---
 
 ## Implemented / Planned Algorithms
 
 ### Supervised Learning
+
 - Linear Regression (Normal Equation + Gradient Descent)
 - Logistic Regression
 - K-Nearest Neighbors
@@ -94,6 +95,7 @@ Each algorithm directory typically contains:
 - Support Vector Machine (primal intuition)
 
 ### Optimization Algorithms
+
 - Batch Gradient Descent
 - Stochastic Gradient Descent
 - Mini-batch Gradient Descent
@@ -102,6 +104,7 @@ Each algorithm directory typically contains:
 - Adam (derived from exponential moving averages)
 
 ### Neural Networks
+
 - Perceptron
 - Multi-Layer Perceptron
 - Backpropagation (full chain-rule derivation)
@@ -110,19 +113,24 @@ Each algorithm directory typically contains:
 - Dropout (theoretical explanation)
 
 ### Linear Algebra & Dimensionality Reduction
+
 - PCA (Eigenvalue decomposition approach)
 - Singular Value Decomposition (SVD)
 - Covariance matrix derivations
 
 ### Probability & Information Theory
+
 - Maximum Likelihood Estimation
 - Maximum A Posteriori Estimation
 - Entropy
 - Cross-Entropy
 - KL Divergence
 - Bias–Variance Decomposition
+- TF-IDF
+- BM25
 
 ### Advanced Topics (Planned)
+
 - Attention Mechanism (matrix-level interpretation)
 - Transformer components from scratch
 - GAN formulation
@@ -141,6 +149,7 @@ All derivations prioritize:
 - Loss surface intuition
 
 Where relevant, we connect:
+
 - MLE ↔ Cross-Entropy
 - Regularization ↔ Bayesian priors
 - Gradient Descent ↔ Taylor expansion
