@@ -1,0 +1,20 @@
+Machine learning models learn patterns from data and improve predictions over time.
+Deep learning uses neural networks with many layers to learn complex representations.
+Data science combines statistics, programming, and domain knowledge to extract insights.
+Natural language processing enables computers to understand and generate human language.
+Information retrieval systems rank documents based on relevance to a search query.
+Search engines use indexing and ranking algorithms to retrieve relevant web pages.
+Artificial intelligence systems learn from data to automate decision making.
+Supervised learning trains models using labeled datasets.
+Unsupervised learning discovers hidden patterns in unlabeled data.
+Reinforcement learning trains agents through reward and punishment signals.
+Neural networks consist of interconnected layers of artificial neurons.
+Feature engineering transforms raw data into useful machine learning features.
+Dimensionality reduction techniques simplify high dimensional datasets.
+Clustering algorithms group similar data points together.
+Classification models predict discrete labels for input data.
+Regression models estimate continuous numeric values.
+Text mining extracts meaningful information from large document collections.
+Topic modeling identifies hidden themes across documents in a corpus.
+Word embeddings represent words as dense numerical vectors.
+Retrieval augmented generation combines search with language models.
