@@ -1,4 +1,4 @@
-# Simple Linear Regression — From Scratch (Math Intuition)
+# Simple Linear Regression - From Scratch (Math Intuition)
 
 ## 1. Problem Statement
 
