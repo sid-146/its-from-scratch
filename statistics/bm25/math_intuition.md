@@ -49,7 +49,11 @@ Where the score is calculated **for every query term** and then summed.
 
 - It is calculated as:
 
-$avgdl = \frac{\sum\_{d \in D} |d|}{N}$
+$$
+
+avgdl = \frac{\sum{d \in D} |d|}{N}
+
+$$
 
 Where:
 
@@ -100,7 +104,11 @@ Interpretation:
 
 BM25 uses a modified version of **Inverse Document Frequency**.
 
-$IDF(t) = \log \left( \frac{N - n_t + 0.5}{n_t + 0.5} + 1 \right)$
+$$
+
+IDF(t) = \log \left( \frac{N - n_t + 0.5}{n_t + 0.5} + 1 \right)
+
+$$
 
 Where:
 
